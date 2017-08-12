@@ -1,0 +1,1 @@
+Send notes on confi.gjson

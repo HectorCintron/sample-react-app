@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$header-height: 73px;
+$border-size: 3px;
+$white: #ffffff;
+$gray: #7d7d7d;
+$light-gray: #f2f3f5;
+$dark-gray: #5d5d5d;
+$ligter-gray: #c6c6c6;
+
+html, body, #root {
+    min-height: 100% !important;
+    margin: 0;
+    height: 100%;
+}

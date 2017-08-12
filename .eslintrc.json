@@ -1,0 +1,17 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "codeFrame": false
+    },
+    "extends": "airbnb", 
+    "settings": {
+        "import/resolver": "webpack"
+    },
+    "rules": {
+        "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
+        "no-unused-vars": [0],
+        "react/require-default-props": [0]
+    }
+}

@@ -1,0 +1,62 @@
+@import '../../common.scss';
+
+.card {
+  width: 270px;
+  height: 250px;
+  border-radius: 2px;
+  background-color: $white;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#card-wrapper {
+  height: auto;
+  max-width: 300px;
+  padding: 10px 15px;
+}
+
+#plus {
+  cursor: pointer;
+}
+
+.create-card {
+  div {
+    margin-top: 66px;
+  }
+  h2 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+  }
+}
+
+.app-card {
+  img {
+    margin-top: 26.9px;
+    cursor: pointer;
+    & {
+      #download #delete{
+        margin-top: 6px;
+        outline: none;
+      }
+    }
+  }
+  h2 {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: $dark-gray;
+  }
+  h3 {
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 100;
+    color: $ligter-gray;
+  }
+}
+
+div {
+  outline: none;
+}

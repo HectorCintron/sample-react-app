@@ -1,0 +1,30 @@
+@import '../../common.scss';
+
+.Header {
+  width: 100%;
+  height: $header-height;
+  padding: 0;
+  text-align: start;
+  border-bottom: solid $border-size #d8d8d8;
+  background: -webkit-linear-gradient(left, $light-gray, $white);
+  background: -moz-linear-gradient(left, $light-gray, $white);
+  background: -o-linear-gradient(left, $light-gray, $white);
+  background: linear-gradient(to right, $light-gray, $white);
+
+  img {
+    &#beaver-logo {
+      width: $header-height;
+      height: 70px;
+      float: left;
+    }
+    
+    &#settings-icon {
+      float: right;
+      padding: 17.1px 18.1px 0 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

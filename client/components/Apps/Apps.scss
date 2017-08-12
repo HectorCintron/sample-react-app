@@ -1,0 +1,78 @@
+@import '../../common.scss';
+
+.App {
+  height: calc(100% - #{$header-height});
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: $gray;
+  text-align: center;
+}
+
+.Body {
+  min-height: 100%;
+  width: 100%;
+  padding: 0 15px 15px 15px;
+  background-image: linear-gradient(to left, #fcf5f5, #f0f2ff);
+
+  .row-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    &.top-row {
+      min-height: 65px;
+      padding: 15px 15px 0 15px;
+      min-width: 300px;
+    }
+  }
+}
+
+// Semantic UI Style Adjustments below
+.ui {
+  &.search {
+    height: 40px;
+    width: 76px;
+    margin: 0 auto 0 0;
+    #search {
+      box-shadow: 0 2px 4px -2px #d8d8d8;
+      height: 40px;
+      width: 76px;
+    }
+    &.focus {
+      width: 270px;
+      #search {
+        width: 100%;
+      }
+    }
+  }
+
+  &.scrolling.dropdown {
+    width: 132px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fefefe;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #6a6a6a;
+    position: relative;
+    .default.text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 90%;
+        height: 50%;
+        margin: auto 0;
+    }
+    >.dropdown.icon {
+      position: absolute;
+      right: 10%;
+      bottom: 30%;
+    }
+  }
+
+  .row.start-xs {
+    >#search-wrapper {
+      padding: 15px 0 10px 0;
+    }
+  }
+}

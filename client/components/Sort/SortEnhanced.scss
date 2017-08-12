@@ -1,0 +1,16 @@
+.col-wrapper {
+  padding: 0;
+  margin-bottom: 10px;
+  &.dropdown-wrapper {
+    position: relative;
+    height: 40px;
+    div#sort-by {
+      width: 80px;
+      margin-right: 0;
+      position: absolute;
+      right: 140px;
+      top: 25%;
+    }
+    text-align: end;
+  }
+}
