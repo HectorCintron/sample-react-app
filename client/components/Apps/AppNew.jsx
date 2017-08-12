@@ -56,7 +56,7 @@ class AppNew extends React.Component {
   }
 
   errorHandling(name, value, key) {
-    if (name === 'title' && value.length > 25 && this.keyNotIn(key, this.state.fieldErrors)) {
+    if (name === 'title' && value.length > 25 && !this.keyIn(key, this.state.fieldErrors)) {
       const errorArr = this.state.fieldErrors.slice();
       const errorMsg = 'title must be equal to or less than 25 characters';
       if (!errorArr.includes(errorMsg, 0)) {
@@ -71,18 +71,18 @@ class AppNew extends React.Component {
         });
       }
     }
-    if (name === 'title' && value.length <= 25) {
+    if (name === 'title' && value.length <= 25 && this.keyIn(key, this.state.fieldErrors)) {
       this.setState({
         fieldErrors: [],
       });
     }
   }
 
-  keyNotIn = (key, array) => {
-    let bool = true;
+  keyIn = (key, array) => {
+    let bool = false;
     array.forEach((obj) => {
       if (obj.key === key) {
-        bool = false;
+        bool = true;
       }
     });
     return bool;
