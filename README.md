@@ -18,3 +18,5 @@ Make form validators more robust
 Reuse components more
 Multiple delete on front page
 verbose error messages
+
+Adding Tooltips

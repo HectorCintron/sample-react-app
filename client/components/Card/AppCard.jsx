@@ -21,10 +21,14 @@ class NestedAppCard extends React.Component {
     }))}`;
   }
   render() {
-    const { id, title, lastEdit, onDelete } = this.props;
+    const { id, title, description, lastEdit, onDelete } = this.props;
     return (
       <div className="app-card">
-        <Link to={`/app/${id}`}>
+        <Link to={{
+          pathname: `/apps/${id}`,
+          state: { id, title, description, lastEdit },
+        }}
+        >
           <img id="app-image" src={beaverFilled} alt="app" />
         </Link>
         <h2>{this.props.title} </h2>

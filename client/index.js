@@ -4,14 +4,13 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
 import Apps from './components/Apps/Apps.jsx';
 import AppNew from './components/Apps/AppNew.jsx';
-// import AppView from './components/Apps/AppView.jsx';
+import AppView from './components/Apps/AppView.jsx';
+import AppEdit from './components/Apps/AppEdit.jsx';
 import Header from './components/Header/Header.jsx';
 import Settings from './components/Settings/Settings.jsx';
 import './common.scss';
 
-const AppEdit = undefined;
-const AppView = undefined;
-
+// const AppEdit = undefined;
 const style = {
   height: '100%',
   textAlign: 'center',

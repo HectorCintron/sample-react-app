@@ -113,17 +113,15 @@ class AppNew extends React.Component {
         loading={loading}
         onSubmit={this.handleSubmit}
       >
-        <Form.Group widths="equal">
-          <Form.Field
-            required
-            value={title}
-            control={Input}
-            label="Title"
-            name="title"
-            placeholder="Title"
-            onChange={this.handleChange}
-          />
-        </Form.Group>
+        <Form.Field
+          required
+          value={title}
+          control={Input}
+          label="Title"
+          name="title"
+          placeholder="Title"
+          onChange={this.handleChange}
+        />
         <Form.Field
           required
           value={description}

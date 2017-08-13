@@ -31,11 +31,13 @@ router.get('/:id', (req, res) => {
     if (err) return console.log(err);
     var db = database;
     var id = new ObjectID(req.params.id);
-    db.collection('apps').find({ _id: id }).toArray((err, results) => {
+    console.log(id);
+    db.collection('apps').findOne({ _id: id }, (err, results) => {
       if (err) return res.send(err);
       if (err) console.log(err);
+      if (results) console.log(results);
       db.close();
-      res.send(results);
+      res.json(results);
     });
   })
 }),
