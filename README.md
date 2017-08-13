@@ -1,4 +1,4 @@
-![react-logo](https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
+![react-logo](https://timonvs.gallerycdn.vsassets.io/extensions/timonvs/reactsnippetsstandard/1.1.0/1488031987588/Microsoft.VisualStudio.Services.Icons.Default)
 # Description
 This is a sample MERN (Mongo Express ReactJs Node) CRUD app
 
