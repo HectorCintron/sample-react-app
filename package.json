@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server",
-    "server": "PORT=8081 node ./react-backend/bin/www"
+    "server": "PORT=8081 node ./react-backend/bin/www",
+    "prod": "webpack -p --progress --profile --colors"
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",

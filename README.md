@@ -1,6 +1,6 @@
 ![react-logo](https://timonvs.gallerycdn.vsassets.io/extensions/timonvs/reactsnippetsstandard/1.1.0/1488031987588/Microsoft.VisualStudio.Services.Icons.Default)
 # Description
-This is a sample MERN (Mongo Express ReactJs Node) CRUD app
+This is a sample MERN (Mongo Express ReactJs Node) CRUD app.
 
 # Installation
 1. `git clone https://github.com/HectorCintron/sample-react-app.git`
@@ -9,7 +9,7 @@ This is a sample MERN (Mongo Express ReactJs Node) CRUD app
 4. Mongo:
   * If you would like to sign up for an mlab account, continue with step 5
   * If you are using a pre-existing mlab account move to step 6
-  * If you would prefer to roll your own mongo configuration, please reference the ./react-backend/db/index.js and ./react-backend/routes/apps.js files to create your own Mongo connection. Continue to step 8
+  * If you would prefer to roll your own mongo configuration, please reference the ./react-backend/db/index.js and ./react-backend/routes/apps.js files to create your own MongoDB instance connection. Continue to step 8
 5. Sign up for an mlab account at [mlab.com](https://mlab.com/signup/) and create a mongo instance and user / password combo. Learn more [here]
 6. Run command `touch ./react-backend/db/config.json` from the project root directory
 7. `cd ./react-backend/db`
@@ -19,9 +19,10 @@ This is a sample MERN (Mongo Express ReactJs Node) CRUD app
       "dbuser": "YOUR_DB_USER",
       "dbpassword": "YOUR_DB_PASSWORD",
     }`
-9. In a terminal, type and run: `npm run server`
-10. In another terminal, type and run: `npm run start`
-11. Happy Coding :)
+9. Navigate back to the root of the project. `cd ../../`, run `npm run server`
+10. In another terminal, type and run: `npm run start` from the project root directory.
+11. You can access the ap at http://localhost:8080/apps and the api at http://localhost:8080/api/apps once it is successfully running. 
+12. Happy Coding :)
 
 ## Future Improvements or Features
 #### In no particular order ...
