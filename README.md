@@ -30,8 +30,10 @@ This is a sample MERN (Mongo Express ReactJs Node) CRUD app.
 * Incorporate Redux
 * Create a deployment script to Heroku or AWS
 * Rethink and reimplement redirects
+* Reduce calls to API
 * Break the app into smaller, more reusable parts
 * Incorporate multi-delete on front page
+* Reduce size of production bundle by optimizing code / webpack configuration / splitting main.js into smaller modules
 
 ## Bugs
 * There is a minor form console bug with the AppView.jsx file that I will tackle at a future date.
