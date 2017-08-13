@@ -1,3 +1,4 @@
+![react-logo](https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png)
 # Description
 This is a sample MERN (Mongo Express ReactJs Node) CRUD app
 
