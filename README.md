@@ -1,3 +1,6 @@
+# Description
+This is a sample MERN (Mongo Express ReactJs Node) CRUD app
+
 # Installation
 1. `git clone https://github.com/HectorCintron/sample-react-app.git`
 2. `cd sample-react-app/`
