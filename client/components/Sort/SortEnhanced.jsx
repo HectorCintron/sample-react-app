@@ -38,9 +38,8 @@ class SortEnhanced extends React.Component {
 
 SortEnhanced.propTypes = {
   onChange: PropTypes.func,
-  value: PropTypes.string,
-  options: PropTypes.array,
   /* eslint-disable */
+  options: PropTypes.array,
   selectedLabel: PropTypes.object,
 };
 

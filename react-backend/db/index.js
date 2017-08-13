@@ -1,4 +1,5 @@
 var config = require('./config.json');
-var mongoUrl = 'mongodb://'+config.dbuser+':'+config.dbpassword+'@ds025742.mlab.com:25742/'+config.dbname;
-
+var  mongoUrl= config.url;
+mongoUrl = mongoUrl.replace("<dbuser>", config.dbuser);
+mongoUrl = mongoUrl.replace("<dbpassword>", config.dbpassword);
 module.exports = mongoUrl;
